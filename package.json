@@ -1,0 +1,11 @@
+{
+  "name": "encode-bootcamp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:empeje/encode-bootcamp.git",
+  "author": "empeje <a.mappuji@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "web3": "^1.7.3"
+  }
+}

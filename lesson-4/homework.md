@@ -1,0 +1,3 @@
+# Problem
+
+Create volcano coin.
