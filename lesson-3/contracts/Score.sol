@@ -5,6 +5,7 @@ pragma solidity ^0.8.0;
 contract Score {
     uint public score = 5;
     address owner;
+    mapping (address => uint) public score_list;
 
     event newScoreEvent(uint indexed);
 
@@ -35,5 +36,9 @@ contract Score {
 
     function setScore(uint new_score) public onlyOwner {
         score = new_score;
+    }
+
+    function getUserScore(address user) public view returns(uint) {
+        return score_list[user];
     }
 }
