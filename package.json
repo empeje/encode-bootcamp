@@ -6,6 +6,7 @@
   "author": "empeje <a.mappuji@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "hardhat": "^2.9.3",
     "web3": "^1.7.3"
   }
 }
