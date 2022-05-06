@@ -7,7 +7,8 @@
    4. 0x7a026bf79b36580bf7ef174711a3de823ff3c93c65304c3acc0323c77d62d0ed (Polynetwork DAI)
    5. 0x814e6a21c8eb34b62a05c1d0b14ee932873c62ef3c8575dc49bcf12004714eda (Polynetwork exploit 2)
 2. What is the largest account balance you can find?
-3. What is special about these accounts?
+   1. Based on [this](https://etherscan.io/accounts), the largest is the Eth2 deposit contract (about 10% of the supply), followed by Wrapped Ether (about 50% of the supply).
+4. What is special about these accounts?
    1. 0x1db3439a222c519ab44bb1144fc28167b4fa6ee6 (Vitalik)
    2. 0x000000000000000000000000000000000000dEaD (null address)
    3. 0x00000000219ab540356cBB839Cbe05303d7705Fa (Staking contract)
