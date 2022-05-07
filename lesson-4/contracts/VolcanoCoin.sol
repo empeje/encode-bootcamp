@@ -12,7 +12,7 @@ contract VolcanoCoin {
         address from;
     }
 
-    Payment[] payments;
+    mapping (address => Payment[]) payments;
 
     event totalSupplyChanged(uint256);
 
@@ -41,6 +41,10 @@ contract VolcanoCoin {
         balances[msg.sender] = balances[msg.sender] - amount;
         balances[to] = balances[to] + amount;
 
-        payments.push(Payment({transferAmount: amount, to: to, from: msg.sender}));
+        payments[msg.sender].push(Payment({transferAmount: amount, to: to, from: msg.sender}));
+    }
+
+    function getPayments(address _user) public view returns(Payment[] memory) {
+        return payments[_user];
     }
 }
